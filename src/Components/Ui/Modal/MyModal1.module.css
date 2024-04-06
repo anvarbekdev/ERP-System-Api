@@ -1,0 +1,46 @@
+.myModal {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	top: 0;
+	display: none;
+	background: rgba(255, 255, 255, 0.405);
+}
+
+.myModalContent {
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	background-image: linear-gradient(
+		90deg,
+		rgba(103, 126, 250, 1),
+		rgba(142, 84, 219, 1)
+	);
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+.myModal.active {
+	z-index: 9;
+	display: flex;
+	margin-top: 4rem;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 2500px) {
+	.myModalContent {
+		max-height: 100%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.myModalContent {
+		min-height: 120%;
+	}
+}
+@media only screen and (max-width: 767px) {
+  .myModalContent {
+		min-height: 240%;
+	}
+}

@@ -1,0 +1,15 @@
+#demotext {
+	text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5,
+		-2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5,
+		-2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+	color: #ffffff;
+ letter-spacing: 2px;
+	font-size: 20px;
+}
+
+button a {
+	text-decoration: none;
+	color: rgb(57, 146, 98);
+	font-weight: 600;
+	font-size: 1rem;
+}

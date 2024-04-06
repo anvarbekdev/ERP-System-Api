@@ -1,0 +1,18 @@
+.shadows {
+	box-shadow: rgba(8, 194, 223, 0.855) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	border-radius: 0% 34% 9% 0% / 10% 54% 33% 10% ;
+ overflow: hidden;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box:hover {
+ transition: .5s;
+	transform: translateX(10px);
+}
+
+.link {
+	text-decoration: none;
+	display: block;
+	/* padding: 0 .5rem; */
+}
